@@ -1,0 +1,6 @@
+2025-06-26 16:14:08 - INFO - Starting data preprocessing
+2025-06-26 16:14:08 - INFO - Initial dataset shape: (95662, 37)
+2025-06-26 16:14:08 - INFO - Dropped columns: ['TransactionId', 'BatchId', 'AccountId', 'SubscriptionId', 'CustomerId']
+2025-06-26 16:14:08 - INFO - Encoding categorical columns: ['CurrencyCode', 'CountryCode', 'ProductId']
+2025-06-26 16:14:08 - INFO - Extracting datetime features from 'TransactionStartTime'
+2025-06-26 16:14:08 - INFO - Preprocessed dataset shape: (95662, 53)
