@@ -208,3 +208,38 @@ Name: count, dtype: int64
 2025-06-26 16:14:08,072 - INFO - Encoding categorical columns: ['CurrencyCode', 'CountryCode', 'ProductId']
 2025-06-26 16:14:08,108 - INFO - Extracting datetime features from 'TransactionStartTime'
 2025-06-26 16:14:08,244 - INFO - Preprocessed dataset shape: (95662, 53)
+2025-06-26 16:28:47,135 - INFO - Starting data splitting
+2025-06-26 16:28:47,151 - INFO - Dataset size: (95662, 53), Target distribution: {0: 0.5000418138863917, 1: 0.4999581861136083}
+2025-06-26 16:28:47,207 - INFO - Train set size: (76529, 52), Test set size: (19133, 52)
+2025-06-26 16:29:10,474 - INFO - Defining models
+2025-06-26 16:29:10,475 - INFO - Models defined: LogisticRegression (with scaling), RandomForest (with regularization)
+2025-06-26 16:29:10,476 - INFO - Defining hyperparameter grids
+2025-06-26 16:29:10,477 - INFO - Hyperparameter grids defined with regularization for RandomForest
+2025-06-26 16:29:13,979 - INFO - Starting Randomized Search for hyperparameter tuning
+2025-06-26 16:29:13,981 - INFO - Performing Randomized Search for LogisticRegression
+2025-06-26 16:29:25,946 - INFO - LogisticRegression best parameters: {'logistic__penalty': 'l2', 'logistic__C': 10}
+2025-06-26 16:29:25,947 - INFO - LogisticRegression best CV ROC-AUC: 0.9944
+2025-06-26 16:29:25,948 - INFO - Performing Randomized Search for RandomForest
+2025-06-26 16:29:32,435 - INFO - RandomForest best parameters: {'n_estimators': 50, 'min_samples_split': 5, 'min_samples_leaf': 4, 'max_depth': 15}
+2025-06-26 16:29:32,436 - INFO - RandomForest best CV ROC-AUC: 1.0000
+2025-06-26 16:29:32,437 - INFO - Randomized Search completed successfully
+2025-06-26 16:29:39,454 - INFO - Starting evaluation of best models
+2025-06-26 16:29:39,455 - INFO - Evaluating LogisticRegression
+2025-06-26 16:29:39,534 - INFO - LogisticRegression Test Accuracy: 0.9646
+2025-06-26 16:29:39,535 - INFO - LogisticRegression Test Precision: 0.9781
+2025-06-26 16:29:39,536 - INFO - LogisticRegression Test Recall: 0.9506
+2025-06-26 16:29:39,537 - INFO - LogisticRegression Test F1 Score: 0.9641
+2025-06-26 16:29:39,537 - INFO - LogisticRegression Test ROC-AUC: 0.9961
+2025-06-26 16:29:43,415 - INFO - LogisticRegression 5-Fold CV ROC-AUC: 0.9954 (±0.0003)
+2025-06-26 16:29:43,416 - INFO - Evaluating RandomForest
+2025-06-26 16:29:43,487 - INFO - RandomForest Test Accuracy: 0.9998
+2025-06-26 16:29:43,487 - INFO - RandomForest Test Precision: 0.9997
+2025-06-26 16:29:43,488 - INFO - RandomForest Test Recall: 1.0000
+2025-06-26 16:29:43,489 - INFO - RandomForest Test F1 Score: 0.9998
+2025-06-26 16:29:43,490 - INFO - RandomForest Test ROC-AUC: 1.0000
+2025-06-26 16:29:45,521 - INFO - RandomForest 5-Fold CV ROC-AUC: 1.0000 (±0.0000)
+2025-06-26 16:29:45,523 - INFO - Model evaluation completed successfully
+2025-06-26 16:29:52,214 - INFO - Starting process to save best models
+2025-06-26 16:29:52,218 - INFO - Saved LogisticRegression to models\LogisticRegression_best_model.pkl
+2025-06-26 16:29:52,235 - INFO - Saved RandomForest to models\RandomForest_best_model.pkl
+2025-06-26 16:29:52,236 - INFO - All best models saved successfully
