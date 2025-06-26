@@ -1,0 +1,61 @@
+2025-06-26 12:18:07,029 - INFO - Directory already exists: t:\10-academy\Week5\Credit-Scoring-Model-\data
+2025-06-26 12:18:07,032 - INFO - Directory already exists: t:\10-academy\Week5\Credit-Scoring-Model-\src\../logs
+2025-06-26 12:18:12,922 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data.csv
+2025-06-26 12:18:25,967 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data/data.csv
+2025-06-26 12:18:37,984 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data\data.csv
+2025-06-26 12:18:55,498 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data.csv
+2025-06-26 12:19:06,624 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data/data.csv
+2025-06-26 12:19:56,959 - ERROR - File not found: t:\10-academy\Week5\Credit-Scoring-Model-\data\data/raw/data.csv
+2025-06-26 12:20:05,861 - INFO - Attempting to load data from: t:\10-academy\Week5\Credit-Scoring-Model-\data\../data/raw/data.csv
+2025-06-26 12:20:06,163 - INFO - Successfully loaded data from: t:\10-academy\Week5\Credit-Scoring-Model-\data\../data/raw/data.csv
+2025-06-26 12:20:12,054 - INFO - Creating aggregate features for customers
+2025-06-26 12:20:12,055 - INFO - Processing all transactions
+2025-06-26 12:20:12,134 - INFO - Aggregate features created successfully
+2025-06-26 12:20:19,701 - INFO - Extracting time-based features
+2025-06-26 12:20:19,861 - INFO - Time features extracted successfully
+2025-06-26 12:20:26,419 - INFO - Constructing RFMS scores
+2025-06-26 12:20:26,458 - INFO - RFMS score distribution:
+Label
+0    47835
+1    47827
+Name: count, dtype: int64
+2025-06-26 12:20:26,459 - INFO - Visualizing RFMS space
+2025-06-26 12:20:28,768 - INFO - Binning RFMS_score for WOE calculation
+2025-06-26 12:20:28,775 - INFO - Validating bin distribution
+2025-06-26 12:20:28,793 - INFO - Calculating WOE for RFMS_score_binned
+2025-06-26 12:20:28,795 - INFO - Calculating WOE for feature: RFMS_score_binned
+2025-06-26 12:20:28,807 - INFO - WOE and IV calculated for RFMS_score_binned. IV: 0.004776259192989356
+2025-06-26 12:20:28,818 - INFO - WOE calculation completed for RFMS_score_binned
+2025-06-26 12:20:28,822 - INFO - WOE calculation for RFMS_score completed
+2025-06-26 12:20:55,753 - INFO - Encoding categorical variables
+2025-06-26 12:20:55,763 - INFO - Converted ProviderId to category codes
+2025-06-26 12:20:55,772 - INFO - Converted ProductId to category codes
+2025-06-26 12:20:55,782 - INFO - Converted ProductCategory to category codes
+2025-06-26 12:20:55,783 - INFO - Applying WOE encoding
+2025-06-26 12:20:55,784 - INFO - Calculating WOE for feature: ProviderId
+2025-06-26 12:20:55,797 - INFO - WOE and IV calculated for ProviderId. IV: 0.13202650052403148
+2025-06-26 12:20:55,809 - INFO - WOE calculation completed for ProviderId
+2025-06-26 12:20:55,842 - INFO - Calculating WOE for feature: ProductId
+2025-06-26 12:20:55,864 - INFO - WOE and IV calculated for ProductId. IV: 0.052235071315386856
+2025-06-26 12:20:55,876 - INFO - WOE calculation completed for ProductId
+2025-06-26 12:20:55,901 - INFO - Calculating WOE for feature: ProductCategory
+2025-06-26 12:20:55,912 - INFO - WOE and IV calculated for ProductCategory. IV: 0.027772767137246857
+2025-06-26 12:20:55,921 - INFO - WOE calculation completed for ProductCategory
+2025-06-26 12:20:55,947 - INFO - Applying One-Hot Encoding
+2025-06-26 12:20:55,994 - INFO - Information Values for features: {'ProviderId': np.float64(0.13202650052403148), 'ProductId': np.float64(0.052235071315386856), 'ProductCategory': np.float64(0.027772767137246857)}
+2025-06-26 12:20:55,995 - INFO - Categorical encoding completed
+2025-06-26 12:21:01,450 - INFO - Standardizing numerical features
+2025-06-26 12:21:01,485 - INFO - Standardized features sample:
+     Amount     Value  Total_Transaction_Amount  Average_Transaction_Amount  \
+0 -0.046371 -0.072291                  0.170118                   -0.067623   
+1 -0.054643 -0.080251                  0.170118                   -0.067623   
+2 -0.050426 -0.076352                  0.165122                   -0.072568   
+3  0.107717  0.096648                  0.175567                   -0.008155   
+4 -0.059704 -0.075183                  0.175567                   -0.008155   
+
+   Transaction_Count  Std_Transaction_Amount  
+0          -0.311831               -0.167016  
+1          -0.311831               -0.167016  
+2          -0.444993               -0.201209  
+3          -0.404020               -0.008243  
+4          -0.404020               -0.008243  
