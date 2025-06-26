@@ -1,3 +1,6 @@
+# src/business_understanding.py
+
+section = """\
 
 ## Credit Scoring Business Understanding
 
@@ -25,3 +28,10 @@ Complex models like Gradient Boosting Machines:
 - May require additional tooling (e.g., SHAP) for interpretability
 
 In regulated environments like banking, there's a strong incentive to start with interpretable models and justify the use of complex models only when significant performance gains are demonstrated and explainability tools are applied.
+"""
+
+# Overwrite README.md using UTF-8 encoding
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(section)
+
+print("✅ README.md successfully updated with clean content.")
