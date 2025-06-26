@@ -1,0 +1,118 @@
+2025-06-26 14:40:53,805 - INFO - Preprocessing the data
+2025-06-26 14:40:53,824 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 14:41:36,981 - INFO - Preprocessing the data
+2025-06-26 14:41:36,982 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:41:57,307 - INFO - Preprocessing the data
+2025-06-26 14:41:57,308 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:43:06,516 - INFO - Preprocessing the data
+2025-06-26 14:43:06,535 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 14:44:16,801 - INFO - splitting the data
+2025-06-26 14:44:16,803 - INFO - error occurred 'NoneType' object has no attribute 'drop'
+2025-06-26 14:45:13,912 - INFO - Preprocessing the data
+2025-06-26 14:45:13,930 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 14:50:29,471 - INFO - Preprocessing the data
+2025-06-26 14:50:29,472 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:51:09,243 - INFO - Preprocessing the data
+2025-06-26 14:51:09,245 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:51:10,616 - INFO - Preprocessing the data
+2025-06-26 14:51:10,618 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:56:39,232 - INFO - Preprocessing the data
+2025-06-26 14:56:39,234 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 14:56:51,482 - INFO - Preprocessing the data
+2025-06-26 14:56:51,484 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:00:29,139 - INFO - Preprocessing the data
+2025-06-26 15:00:29,157 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 15:07:33,899 - INFO - Preprocessing the data
+2025-06-26 15:07:33,922 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 15:10:04,788 - INFO - Preprocessing the data
+2025-06-26 15:10:04,789 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:14:13,086 - INFO - Preprocessing the data
+2025-06-26 15:14:13,087 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:17:51,136 - INFO - Preprocessing the data
+2025-06-26 15:17:51,137 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:20:00,743 - INFO - Preprocessing the data
+2025-06-26 15:20:00,744 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:21:19,161 - INFO - Preprocessing the data
+2025-06-26 15:21:19,163 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:24:48,588 - INFO - Preprocessing the data
+2025-06-26 15:24:48,589 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:24:55,450 - INFO - Preprocessing the data
+2025-06-26 15:24:55,464 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 15:25:23,882 - INFO - Preprocessing the data
+2025-06-26 15:25:23,899 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 15:26:29,052 - INFO - Preprocessing the data
+2025-06-26 15:26:29,054 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:27:02,793 - INFO - Preprocessing the data
+2025-06-26 15:27:02,795 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:33:43,573 - INFO - Preprocessing the data
+2025-06-26 15:33:43,591 - ERROR - Error occurred while preprocessing the data: "['ChannelId'] not in index"
+2025-06-26 15:34:10,453 - INFO - Preprocessing the data
+2025-06-26 15:34:10,454 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:34:37,514 - INFO - Preprocessing the data
+2025-06-26 15:34:37,516 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:25,492 - INFO - Preprocessing the data
+2025-06-26 15:38:25,493 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:53,618 - INFO - Preprocessing the data
+2025-06-26 15:38:53,620 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:54,872 - INFO - Preprocessing the data
+2025-06-26 15:38:54,874 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:55,573 - INFO - Preprocessing the data
+2025-06-26 15:38:55,574 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:56,120 - INFO - Preprocessing the data
+2025-06-26 15:38:56,121 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:56,667 - INFO - Preprocessing the data
+2025-06-26 15:38:56,668 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:57,839 - INFO - Preprocessing the data
+2025-06-26 15:38:57,840 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:58,081 - INFO - Preprocessing the data
+2025-06-26 15:38:58,083 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:58,295 - INFO - Preprocessing the data
+2025-06-26 15:38:58,297 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:58,545 - INFO - Preprocessing the data
+2025-06-26 15:38:58,546 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:58,739 - INFO - Preprocessing the data
+2025-06-26 15:38:58,741 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:58,939 - INFO - Preprocessing the data
+2025-06-26 15:38:58,940 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:59,147 - INFO - Preprocessing the data
+2025-06-26 15:38:59,149 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:59,356 - INFO - Preprocessing the data
+2025-06-26 15:38:59,357 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:59,545 - INFO - Preprocessing the data
+2025-06-26 15:38:59,547 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:59,736 - INFO - Preprocessing the data
+2025-06-26 15:38:59,737 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:38:59,945 - INFO - Preprocessing the data
+2025-06-26 15:38:59,946 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:00,138 - INFO - Preprocessing the data
+2025-06-26 15:39:00,139 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:00,348 - INFO - Preprocessing the data
+2025-06-26 15:39:00,350 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:00,579 - INFO - Preprocessing the data
+2025-06-26 15:39:00,580 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:00,782 - INFO - Preprocessing the data
+2025-06-26 15:39:00,784 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:00,979 - INFO - Preprocessing the data
+2025-06-26 15:39:00,980 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:01,194 - INFO - Preprocessing the data
+2025-06-26 15:39:01,195 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:39:34,492 - INFO - Preprocessing the data
+2025-06-26 15:39:34,494 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:40:03,820 - INFO - Preprocessing the data
+2025-06-26 15:40:03,822 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 15:48:15,491 - INFO - Preprocessing the data
+2025-06-26 15:48:15,494 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:00:07,902 - INFO - Preprocessing the data
+2025-06-26 16:00:07,903 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:00:14,354 - INFO - Preprocessing the data
+2025-06-26 16:00:14,355 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:04:34,206 - INFO - Preprocessing the data
+2025-06-26 16:04:34,207 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:04:40,393 - INFO - splitting the data
+2025-06-26 16:04:40,394 - INFO - error occurred 'NoneType' object has no attribute 'drop'
+2025-06-26 16:09:49,217 - INFO - Preprocessing the data
+2025-06-26 16:09:49,218 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:10:05,128 - INFO - Preprocessing the data
+2025-06-26 16:10:05,129 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
+2025-06-26 16:10:49,838 - INFO - Preprocessing the data
+2025-06-26 16:10:49,839 - ERROR - Error occurred while preprocessing the data: 'NoneType' object has no attribute 'drop'
